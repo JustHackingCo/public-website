@@ -19,8 +19,8 @@ export const RequestCTF = () => (
         <Row className="justify-content-md-center">
           <Col md={5}>
             <Styles>
-              The <strong>CTF4Hire</strong> team is currently preparing for
-              NahamCon 2021 and is unable to take more requests at this time.
+              The <strong>CTF4Hire</strong> team is currently preparing 
+              for <b><u><a href="https://ctf.nahamcon.com/">NahamCon 2021</a></u></b> and is unable to take more requests at this time. Check back after March, 2021 and we should have some more availability!
             </Styles>
           </Col>
         </Row>

@@ -53,7 +53,7 @@ export const Info = () => (
                 <Numbers>
                     <Row>
                         <NumberBox icon={FaHeadset} small="about" link="#team" number={10} text="Supporting Personnel"/>
-                        <NumberBox icon={FaPuzzlePiece} small="over" link="#challenges" number={250} text="Developed Training Sets"/>
+                        <NumberBox icon={FaPuzzlePiece} small="over" link="#challenges" number={350} text="Developed Training Sets"/>
                         <NumberBox icon={FaUsers} small="more than" link="/events" number={15000} text="Previous Players"/>
                         <NumberBox icon={FaLaptopCode} small="created over" link="#infrastructure" number={50000} text="Challenge Deployments"/>
                     </Row> 

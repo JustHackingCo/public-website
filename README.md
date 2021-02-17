@@ -15,7 +15,7 @@ Github actions have been set up to take care of automatically building (`yarn bu
 
 1. Clone the repo
 2. Create a new branch for your new feature.
-3. You can run the website locally running `yarn start`.
+3. You can run the website locally running `yarn start` or `npm start`.
 4. Push your changes to a branch and open a PR to `master` (if possible get it reviewed by someone)
 5. Once the PR is merges github actions will build and release the website.
 
