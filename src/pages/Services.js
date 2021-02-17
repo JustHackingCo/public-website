@@ -24,7 +24,7 @@ export const Services = () => (
         </SectionSubtitle>
         <Row className="mt-n4">
           <GameTypeCard
-            title="Attach & Defense"
+            title="Attack & Defense"
             icon={BiTable}
             color="#ffbe0b"
             hovercolor="#ffdd80"
