@@ -74,7 +74,7 @@ export const Info = () => (
                         <CategoryBox icon={RiArrowGoBackFill} color="#29cc61" link="#test" text="Reverse Engineering"></CategoryBox>
                         <CategoryBox icon={RiHardDriveLine} color="#b20969" link="#test" text="Host Forensics"></CategoryBox>
                         <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
-                        <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Read Team Operations"></CategoryBox>
+                        <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
                     </Row>
                 </JeopardyCategories>
             </Section>
