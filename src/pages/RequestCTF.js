@@ -20,7 +20,7 @@ export const RequestCTF = () => (
           <Col md={5}>
             <Styles>
               The <strong>CTF4Hire</strong> team is currently preparing 
-              for <b><u><a href="https://ctf.nahamcon.com/">NahamCon 2021</a></u></b> and is unable to take more requests at this time. Check back after March, 2021 and we should have some more availability!
+              for <b><u>VetSec 2021</u></b> and is unable to take more requests at this time. Check back after November, 2021 and we should have some more availability!
             </Styles>
           </Col>
         </Row>

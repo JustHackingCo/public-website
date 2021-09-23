@@ -21,12 +21,24 @@ const testimonials = [
         text: "I enjoyed this CTF a lot. I don't normally interact with communities on Discord, but I did enjoy interacting with people and working through some of the challenges together over DM. Thanks all involved with providing us another awesome CTF!"
     },
     {
+        image: hacktivitycon,
+        text: "You guys did absolutely amazing as far as I can say. I mean it was my first CTF like that and I found the variety in difficulty and type of the challenges amazing. Thanks to John Hammond <3 for informing me about the challenge and the rest of you for your huge effort in creating this phenomenal CTF."
+    },
+    {
         image: bsidesbos,
         text: "Thank you for putting this CTF together. Although it was extremely challenging I had fun with the community. Thank you for your hard work. I think it safe to say that everyone was pushed beyond their limits today. You all rock!!"
     },
     {
         image: hacktivitycon,
         text: "It was a ton of fun and seriously thanks for doing it, our team had a total blast!"
+    },
+    {
+        image: nahamcon,
+        text: "This was my first CTF and I can say if they are all like this then I'm sure going to do some more of these. Its also inspired me to look at changing my career path."
+    },
+    {
+        image: hacktivitycon,
+        text: "Every CTF you all seem to increase the quality. Kudos and thank you to all of the team that put it together!"
     },
     {
         image: nahamcon,
