@@ -25,7 +25,7 @@ export const PastEvents = () => (
                         <Col lg={6}>
                             <h3 className="resume-title">Jeopardy CTFs - 2021</h3>
 
-                            <EventCard name="NahamCon 2021 CTF" date="March 12-14, 2021" link="events/nahamcon2021">
+                            <EventCard name="NahamCon 2021 CTF" date="March 12-14, 2021" link="#">
                                 <p>Delivered alongside the <a href="https://nahamcon2021.splashthat.com/" target="_blank" rel="noreferrer">NahamCon 2021</a> conference hosted by NahamSec, The Cyber Mentor and John Hammond.</p>
                                 <ul>
                                     <li>75+ Challenges</li>
@@ -38,7 +38,7 @@ export const PastEvents = () => (
                         <Col lg={6}>
                             <h3 className="resume-title d-none d-lg-block">&nbsp;</h3>
 
-                            <EventCard name="HacktivityCon 2021 CTF" date="September 16-18, 2021" link="events/hacktivitycon2021">
+                            <EventCard name="HacktivityCon 2021 CTF" date="September 16-18, 2021" link="#">
                                 <p>Delivered alongside the <a href="https://www.hackerone.com/hacktivitycon" target="_blank" rel="noreferrer">HacktivityCon 2021</a> conference hosted by NahamSec and HackerOne.</p>
                                 <ul>
                                     <li>50+ Challenges</li>
@@ -56,7 +56,7 @@ export const PastEvents = () => (
                         <Col lg={6}>
                             <h3 className="resume-title">Jeopardy CTFs - 2020</h3>
                             
-                            <EventCard name="VirSecCon CTF" date="April 3-4, 2020" link="events/virseccon">
+                            <EventCard name="VirSecCon CTF" date="April 3-4, 2020" link="#">
                                 <p>Delivered alongside the <a href="https://virseccon.com" target="_blank" rel="noreferrer">VirSecCon</a> conference hosted by The Cyber Mentor and NahamSec.</p>
                                 <ul>
                                     <li>60+ Challenges</li>
@@ -65,7 +65,7 @@ export const PastEvents = () => (
                                 <a href="https://virseccon.com" target="_blank" rel="noreferrer"><img src={virseccon} alt="VirSecCon Logo"/></a>
                             </EventCard>
 
-                            <EventCard name="HacktivityCon CTF" date="July 29-31, 2020" link="events/hacktivitycon">
+                            <EventCard name="HacktivityCon CTF" date="July 29-31, 2020" link="#">
                                 <p>Delivered alongside the <a href="https://www.hackerone.com/hacktivitycon" target="_blank" rel="noreferrer">HacktivityCon</a> conference hosted by NahamSec and HackerOne.</p>
                                 <ul>
                                     <li>90+ Challenges</li>
@@ -74,7 +74,7 @@ export const PastEvents = () => (
                                 <a href="https://www.hackerone.com/hacktivitycon" target="_blank" rel="noreferrer"><img src={hacktivitycon} alt="HacktivityCon Logo"/></a>
                             </EventCard>
 
-                            <EventCard name="Veterans in Security CTF" date="November 10, 2020" link="events/vetsec">
+                            <EventCard name="Veterans in Security CTF" date="November 10, 2020" link="#">
                                 <p>Delivered alongside the <a href="https://www.hackerone.com/events/veterans-security-community-day" target="_blank" rel="noreferrer">Veterans in Security</a> community event hosted by HackerOne.</p>
                                 <ul>
                                     <li>30+ Challenges</li>
@@ -87,7 +87,7 @@ export const PastEvents = () => (
                         <Col lg={6}>
                             <h3 className="resume-title d-none d-lg-block">&nbsp;</h3>
 
-                            <EventCard name="NahamCon 2020 CTF" date="June 12-13, 2020" link="events/nahamcon2020">
+                            <EventCard name="NahamCon 2020 CTF" date="June 12-13, 2020" link="#">
                                 <p>Delivered alongside the <a href="https://nahamcon.splashthat.com/" target="_blank" rel="noreferrer">NahamCon 2020</a> conference hosted by NahamSec, The Cyber Mentor, STOK and John Hammond.</p>
                                 <ul>
                                     <li>75+ Challenges</li>
@@ -96,7 +96,7 @@ export const PastEvents = () => (
                                 <a href="https://nahamcon.splashthat.com/" target="_blank" rel="noreferrer"><img src={nahamcon} alt="NahamCon Logo"/></a>
                             </EventCard>
 
-                            <EventCard name="BsidesBOS CTF" date="September 26th, 2020" link="events/bsidesbos">
+                            <EventCard name="BsidesBOS CTF" date="September 26th, 2020" link="#">
                                 <p>Delivered alongside the Security <a href="https://www.bsidesbos.org/" target="_blank" rel="noreferrer">BsidesBOS</a> conference.</p>
                                 <ul>
                                     <li>50+ Challenges</li>
@@ -105,7 +105,7 @@ export const PastEvents = () => (
                                 <a href="https://www.bsidesbos.org/" target="_blank" rel="noreferrer"><img src={bsidesbos} alt="BsidesBOS Logo"/></a>
                             </EventCard>
 
-                            <EventCard name="GRIMMCon 0x3 CTF" date="December 30, 2020" link="events/grimmcon">
+                            <EventCard name="GRIMMCon 0x3 CTF" date="December 30, 2020" link="#">
                                 <p>Delivered alongside the <a href="https://www.grimm-co.com/grimmcon-0x3/" target="_blank" rel="noreferrer">GRIMMCon 0x3</a> conference hosted by GRIMM.</p>
                                 <ul>
                                     <li>30+ Challenges</li>
