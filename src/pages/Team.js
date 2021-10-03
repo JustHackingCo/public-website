@@ -19,94 +19,92 @@ export const Team = () => (
         <SectionPanel>
             <Section>
                 <Introduction>
-                    {/* <SectionTitle>About Us.</SectionTitle> */}
+                    <SectionTitle>About Us.</SectionTitle>
                     <SectionSubtitle>Meet The Team</SectionSubtitle>
+                    
+                        <Section>
+                            <Row>
+                                <Col lg={4}>
+                                <Image src={john} alt="john's pfp" fluid />
+                                </Col>
+                                <Col lg={8} className="pt-4 pt-lg-0">
+                                <h3>John Hammond</h3>
+                                <p>
+                                John Hammond is a cybersecurity researcher, red teamer, and Capture the Flag enthusiast. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).
+                                </p>
+                                </Col>
+                            </Row>
+                            <JeopardyCategories>
+                            <SectionTitle>John Develops</SectionTitle>
+                            <Row>
+                            <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
+                            <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
+                            <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
+                            <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
+                            <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
+                            <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
+                            </Row>
+                            </JeopardyCategories>
+                        </Section>
 
-                    <Row>
-                        <Col lg={3}>
-                            <Image src={john} alt="john's pfp" fluid />
-                        </Col>
-                        <Col lg={8} className="pt-4 pt-lg-0">
-                            <h3>John Hammond</h3>
-                            <p>
-                            John Hammond is a cybersecurity researcher, red teamer, and Capture the Flag enthusiast. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).
-                            </p>
-                        </Col>
-                    </Row>
-                    <Section>
-                <JeopardyCategories>
-                    <SectionTitle>John Develops</SectionTitle>
-                    <Row>
-                    <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
-                        <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                        <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
-                        <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
-                        <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
-                        <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
-                        <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
-                        <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
-                    </Row>
-                </JeopardyCategories>
+                        <Section>
+                            <Row>
+                                <Col lg={4}>
+                                <Image src={blacknote} alt="blacknote's pfp" fluid />
+                                </Col>
+                                <Col lg={8} className="pt-4 pt-lg-0">
+                                <h3>Blacknote</h3>
+                                <p>
+                                Blacknote
+                                </p>
+                                </Col>
+                            </Row>
+                            <JeopardyCategories>
+                            <SectionTitle>Blacknote Develops</SectionTitle>
+                            <Row>
+                            <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
+                            <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
+                            <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
+                            <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
+                            <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
+                            <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
+                            </Row>
+                            </JeopardyCategories>
+                        </Section>
+
+                        <Section>
+                            <Row>
+                                <Col lg={4}>
+                                <Image src={fumenoid} alt="fumenoid's pfp" fluid />
+                                </Col>
+                                <Col lg={8} className="pt-4 pt-lg-0">
+                                <h3>Fumenoid</h3>
+                                <p>
+                                Harshit (aka. Fumenoid) is a Pentration tester and Cybersecurity Enthusiast. He is currently a student and is pursuing his bachelor's in Computer Science Engineering with Specialization in Cybersecurity and Forensics. As a Cyber Security Intern in BDO India, Fumenoid spends his days doing Network and Web Penetration testing. He is also a Community Moderator in Offensive Security Discord and an Administrator in John Hammond's Discord, where he helps the discord community members and moderates the servers. Fumenoid currently holds the following certifications: OSCP.
+                                </p>
+                                </Col>
+                            </Row>
+                            <JeopardyCategories>
+                            <SectionTitle>Fumenoid Develops</SectionTitle>
+                            <Row>
+                            <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
+                            <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
+                            <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
+                            <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
+                            </Row>
+                            </JeopardyCategories>
+                        </Section>                        
+
+            </Introduction>
             </Section>
-
-
-                    <Row>
-                        <Col lg={3}>
-                            <Image src={blacknote} alt="blacknote's pfp" fluid />
-                        </Col>
-                        <Col lg={8} className="pt-4 pt-lg-0">
-                            <h3>Blacknote</h3>
-                            <p>
-                                Blacknote 
-                            </p>
-                        </Col>
-                    </Row>
-              <Section>
-                <JeopardyCategories>
-                    <SectionTitle>Blacknote Develops</SectionTitle>
-                    <Row>
-                        <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
-                        <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                        <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
-                        <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
-                        <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
-                        <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
-                        <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
-                    </Row>
-                  </JeopardyCategories>
-              </Section>
-
-
-              <Row>
-                        <Col lg={3}>
-                            <Image src={fumenoid} alt="fumenoid's pfp" fluid />
-                        </Col>
-                        <Col lg={8} className="pt-4 pt-lg-0">
-                            <h3>Fumenoid</h3>
-                            <p>
-                              Fumenoid
-                            </p>
-                        </Col>
-                    </Row>
-                    <Section>
-                <JeopardyCategories>
-                    <SectionTitle>Fumenoid Develops</SectionTitle>
-                    <Row>
-                        <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
-                        <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                        <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
-                        <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
-                        <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
-                        <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
-                        <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
-                    </Row>
-
-                </JeopardyCategories>
-            </Section>
-
-                </Introduction>
-            </Section>
-            
         </SectionPanel>
     </React.Fragment>
 )
@@ -119,14 +117,6 @@ const Introduction = styled.div`
     }
 `
 
-const Numbers = styled.div`
-
-`
-
 const JeopardyCategories = styled.div`
-
-`
-
-const Testimonials = styled.div`
-
+    margin: 20px 20px 20px 0;
 `
