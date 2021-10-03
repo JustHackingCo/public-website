@@ -28,7 +28,7 @@ class NavigationBar extends Component {
                                 <Nav.Item><NavLink activeClassName="active" to="/info">Information</NavLink></Nav.Item>
                                 <Nav.Item><NavLink activeClassName="active" to="/events">Past Events</NavLink></Nav.Item>
                                 <Nav.Item><NavLink activeClassName="active" to="/services">Services</NavLink></Nav.Item>
-                                <Nav.Item><NavLink activeClassName="active" to="/team">Services</NavLink></Nav.Item>
+                                <Nav.Item><NavLink activeClassName="active" to="/team">Team</NavLink></Nav.Item>
                                 <Nav.Item><NavLink activeClassName="active" to="/requestCTF">Request a CTF</NavLink></Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
