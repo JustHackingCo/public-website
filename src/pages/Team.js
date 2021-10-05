@@ -13,6 +13,7 @@ import { RiLock2Line, RiGlobalLine, RiBugLine, RiEyeOffLine,
 import blacknote from '../assets/pfps/blacknote.png'
 import fumenoid from '../assets/pfps/fume.webp'
 import john from '../assets/pfps/john.png'
+import trev from '../assets/pfps/trev.png'
 
 export const Team = () => (
     <React.Fragment>
@@ -28,7 +29,7 @@ export const Team = () => (
                                 <Image src={john} alt="john's pfp" fluid />
                                 </Col>
                                 <Col lg={8} className="pt-4 pt-lg-0">
-                                <h3>John Hammond</h3>
+                                <h3 id="John">John Hammond</h3>
                                 <p>
                                 John Hammond is a cybersecurity researcher, red teamer, and Capture the Flag enthusiast. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).
                                 </p>
@@ -37,14 +38,14 @@ export const Team = () => (
                             <JeopardyCategories>
                             <SectionTitle>John Develops</SectionTitle>
                             <Row>
-                            <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
+                            <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                            <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
-                            <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
+                            <CategoryBox icon={RiArrowGoBackFill} color="#29cc61" link="#test" text="Reverse Engineering"></CategoryBox>
+                            <CategoryBox icon={RiHardDriveLine} color="#b20969" link="#test" text="Host Forensics"></CategoryBox>
                             <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
                             <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
-                            <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
-                            <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
+                            <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
+                            <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
                             </Row>
                             </JeopardyCategories>
                         </Section>
@@ -52,10 +53,33 @@ export const Team = () => (
                         <Section>
                             <Row>
                                 <Col lg={4}>
+                                <Image src={trev} alt="trevor's pfp" fluid />
+                                </Col>
+                                <Col lg={8} className="pt-4 pt-lg-0">
+                                <h3 id="Trevor">Trevor Bryant</h3>
+                                <p>
+                                Trevor Bryant is an information security advisor specializing in Configuration Management, the Risk Management Framework (RMF), and all things under FISMA. Trevor has designed and championed agency CI/CD pipelines, as well as modernized and secured automated provisioning frameworks of critical mission/business systems. He translates Federal policy into technical implementations while also contributing language to those policies. Being involved in both the DevOps and infosec communities, he emphasizes the importance that security practices are usable through cost-effective risk-based actions.    
+                                </p>
+                                </Col>
+                            </Row>
+                            <JeopardyCategories>
+                            <SectionTitle>Trevor Develops</SectionTitle>
+                            <Row>
+                            <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
+                            <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
+                            <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            </Row>
+                            </JeopardyCategories>
+                        </Section>                        
+
+                        <Section>
+                            <Row>
+                                <Col lg={4}>
                                 <Image src={blacknote} alt="blacknote's pfp" fluid />
                                 </Col>
                                 <Col lg={8} className="pt-4 pt-lg-0">
-                                <h3>Blacknote</h3>
+                                <h3 id="Blacknote">Blacknote</h3>
                                 <p>
                                 Ravin, also known as Blacknote in the community, is a cybersecurity researcher and web security enthusiast. He loves playing CTFs, especially Attack & Defence, and enjoys sharing the knowledge he has picked up with others. Blacknote currently holds CEH, OSCP and OSWE certifications in his pocket.
                                 </p>
@@ -82,7 +106,7 @@ export const Team = () => (
                                 <Image src={fumenoid} alt="fumenoid's pfp" fluid />
                                 </Col>
                                 <Col lg={8} className="pt-4 pt-lg-0">
-                                <h3>Fumenoid</h3>
+                                <h3 id="Fumenoid">Fumenoid</h3>
                                 <p>
                                 Harshit (aka. Fumenoid) is a Pentration tester and Cybersecurity Enthusiast. He is currently a student and is pursuing his bachelor's in Computer Science Engineering with Specialization in Cybersecurity and Forensics. As a Cyber Security Intern in BDO India, Fumenoid spends his days doing Network and Web Penetration testing. He is also a Community Moderator in Offensive Security Discord and an Administrator in John Hammond's Discord, where he helps the discord community members and moderates the servers. Fumenoid currently holds the following certifications: OSCP.
                                 </p>
@@ -94,7 +118,7 @@ export const Team = () => (
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
                             <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
-                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            <CategoryBox icon={RiHardDriveLine} color="#b20969" link="#test" text="Host Forensics"></CategoryBox>
                             <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
                             <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
                             <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
