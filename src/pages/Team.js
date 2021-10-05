@@ -57,16 +57,16 @@ export const Team = () => (
                                 <Col lg={8} className="pt-4 pt-lg-0">
                                 <h3>Blacknote</h3>
                                 <p>
-                                Blacknote
+                                Ravin, also known as Blacknote in the community, is a cybersecurity researcher and web security enthusiast. He loves playing CTFs, especially Attack & Defence, and enjoys sharing the knowledge he has picked up with others. Blacknote currently holds CEH, OSCP and OSWE certifications in his pocket.
                                 </p>
                                 </Col>
                             </Row>
                             <JeopardyCategories>
                             <SectionTitle>Blacknote Develops</SectionTitle>
                             <Row>
-                            <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                            <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
+                            <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
+                            <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
                             <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
                             <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
                             <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>

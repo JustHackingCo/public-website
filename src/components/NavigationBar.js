@@ -4,14 +4,16 @@ import { NavLink, withRouter } from 'react-router-dom'
 import styled from 'styled-components'
 import { IconContext } from 'react-icons'
 import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedin, FaBars } from "react-icons/fa";
-
+import logo from '../assets/logo.png'
 class NavigationBar extends Component {
     render() {
         return (
             <Styled pathname={this.props.location.pathname}>
                 <Navbar fixed="top" variant="dark" expand="lg">
                     <Container>
-                        <Navbar.Brand><NavLink to="/">CTF4Hire</NavLink></Navbar.Brand>
+                        <Navbar.Brand><NavLink to="/">
+                        <img src={logo} style={{width: 200}} alt='CTF4Hire' />
+                        </NavLink></Navbar.Brand>
                         <h2 className="home-text">
                             Custom cybersecurity training. Personalized learning.
                             <br />
@@ -200,7 +202,9 @@ const Styled = styled.div`
             line-height: 1;
             font-weight: 700;
             font-family: "Poppins", sans-serif;
+            
         }
+
 
         .home-text {
             font-size: 24px;
@@ -256,6 +260,7 @@ const Styled = styled.div`
             font-size: 36px;
             font-weight: 700;
             font-family: "Poppins", sans-serif;
+            transform: scale(0.4);
         }
 
         .home-text{
