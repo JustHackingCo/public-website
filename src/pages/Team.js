@@ -7,12 +7,13 @@ import { SectionTitle } from '../components/SectionTitle'
 import { SectionSubtitle } from '../components/SectionSubtitle'
 import { CategoryBox } from '../components/info/CategoryBox'
 import {FaNetworkWired } from 'react-icons/fa'
-import { RiLock2Line, RiGlobalLine, RiBugLine, RiEyeOffLine, 
+import { RiLock2Line, RiGlobalLine, RiBugLine, RiEyeOffLine,
   RiArchiveLine, RiFireLine, RiOpenSourceLine, RiSmartphoneLine,
-  RiArrowGoBackFill, RiHardDriveLine, RiTeamLine } from 'react-icons/ri'
+  RiArrowGoBackFill, RiHardDriveLine, RiTeamLine, RiServerLine } from 'react-icons/ri'
 import blacknote from '../assets/pfps/blacknote.png'
 import fumenoid from '../assets/pfps/fume.webp'
 import john from '../assets/pfps/john.png'
+import caleb from '../assets/pfps/caleb.png'
 
 export const Team = () => (
     <React.Fragment>
@@ -21,7 +22,7 @@ export const Team = () => (
                 <Introduction>
                     <SectionTitle>About Us.</SectionTitle>
                     <SectionSubtitle>Meet The Team</SectionSubtitle>
-                    
+
                         <Section>
                             <Row>
                                 <Col lg={4}>
@@ -101,7 +102,29 @@ export const Team = () => (
                             <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
                             </Row>
                             </JeopardyCategories>
-                        </Section>                        
+                        </Section>
+
+                        <Section>
+                            <Row>
+                                <Col lg={4}>
+                                <Image src={caleb} alt="caleb's pfp" fluid />
+                                </Col>
+                                <Col lg={8} className="pt-4 pt-lg-0">
+                                <h3>Caleb Stewart</h3>
+                                <p>
+                                Caleb Stewart is cybersecurity researcher at Huntress Labs and active open source contributor. At his day job, he performs low-level research and development to improve and expand the Huntress platform as well as malware analysis and reverse engineering for the Threat Operations department. In the past, Caleb was United States Coast Guard officer where he lead offensive and defensive operations with CGCYBER and USCYBER commands. In his free time, he is the system architect and developer for infrastructure and orchestration of CTF4Hire events, occasional challenge developer and author of <a href="https://github.com/calebstewart/pwncat">pwncat</a>. Caleb currently holds the following certifications: eCPPT, OSWP, OSCP, OSWE, OSEP, OSCE, eCXD, GXPN and CISSP.
+                                </p>
+                                </Col>
+                            </Row>
+                            <JeopardyCategories>
+                            <SectionTitle>Caleb Develops</SectionTitle>
+                            <Row>
+                            <CategoryBox icon={RiServerLine} color="#ffa76e" link="#test" text="Infrastructure"></CategoryBox>
+                            <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
+                            <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
+                            </Row>
+                            </JeopardyCategories>
+                        </Section>
 
             </Introduction>
             </Section>
