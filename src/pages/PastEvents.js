@@ -33,6 +33,15 @@ export const PastEvents = () => (
                                 </ul>
                                 <a href="https://nahamcon.splashthat.com/" target="_blank" rel="noreferrer"><img src={nahamcon} alt="NahamCon Logo"/></a>
                             </EventCard>
+
+                            <EventCard name="Veterans in Security 2021 CTF" date="November 11-13, 2021" link="#">
+                                <p>Delivered alongside the <a href="https://www.hackerone.com/events/veterans-security-community-day" target="_blank" rel="noreferrer">NahamCon 2021</a> conference hosted by NahamSec, The Cyber Mentor and John Hammond.</p>
+                                <ul>
+                                    <li>30+ Challenges</li>
+                                    <li>100+ Players</li>
+                                </ul>
+                                <a href="https://www.hackerone.com/events/veterans-security-community-day" target="_blank" rel="noreferrer"><img src={hackerone} alt="NahamCon Logo"/></a>
+                            </EventCard>
                             
                         </Col>
                         <Col lg={6}>
