@@ -35,7 +35,7 @@ export const PastEvents = () => (
                             </EventCard>
 
                             <EventCard name="Veterans in Security 2021 CTF" date="November 11-13, 2021" link="#">
-                                <p>Delivered alongside the <a href="https://www.hackerone.com/events/veterans-security-community-day" target="_blank" rel="noreferrer">NahamCon 2021</a> conference hosted by NahamSec, The Cyber Mentor and John Hammond.</p>
+                                <p>Delivered alongside the Veterans in Security community event hosted by HackerOne in 2021.</p>
                                 <ul>
                                     <li>30+ Challenges</li>
                                     <li>100+ Players</li>
