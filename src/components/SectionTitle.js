@@ -17,7 +17,7 @@ const H2 = styled.h2`
         width: 120px;
         height: 1px;
         display: inline-block;
-        background: #4ceb95;
+        background: #c21319;
         margin: 4px 10px;
     }
 `

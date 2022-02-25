@@ -19,14 +19,14 @@ const Card = styled.div`
         border-radius: 50px;
         left: -9px;
         top: 0;
-        background: #18d26e;
-        border: 2px solid #18d26e;
+        background: #df2229;
+        border: 2px solid #df2229;
         
     }
     &:hover{
         opacity: 1;
         
-        border-left: 2px solid #18d26e;
+        border-left: 2px solid #df2229;
         
         background: rgba(255, 255, 255, 0.12);
     }
@@ -37,7 +37,7 @@ const Card = styled.div`
         font-weight: 600;
         text-transform: uppercase;
         font-family: "Poppins", sans-serif;
-        color: #18d26e;
+        color: #df2229;
         margin-bottom: 10px;
     }
 
@@ -54,11 +54,11 @@ const Card = styled.div`
     }
 
     p a {
-        color: #18d26e;
+        color: #df2229;
     }
 
     p a:hover {
-        color: #35e888;
+        color: #dc3545;
         text-decoration: none;
     }
 `

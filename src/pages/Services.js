@@ -36,8 +36,8 @@ export const Services = () => (
           <GameTypeCard
             title="Jeopardy"
             icon={BiVerticalCenter}
-            color="#18d26e"
-            hovercolor="#35e888"
+            color="#df2229"
+            hovercolor="#dc3545"
             link="#jeopardy"
           >
             Looking for a classic Jeopardy-style CTF? It's our bread and butter.

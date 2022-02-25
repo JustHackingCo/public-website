@@ -92,7 +92,7 @@ const Introduction = styled.div`
     h3 {
         font-weight: 700;
         font-size: 26px;
-        color: #18d26e;
+        color: #df2229;
     }
 `
 
