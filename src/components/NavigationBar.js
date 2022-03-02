@@ -12,10 +12,10 @@ class NavigationBar extends Component {
                 <Navbar fixed="top" variant="dark" expand="lg">
                     <Container>
                         <Navbar.Brand><NavLink to="/">
-                        <img src={logo} style={{width: 200}} alt='CTF4Hire' />
+                        <img src={logo} style={{width: 340}} alt='JustHacking' />
                         </NavLink></Navbar.Brand>
                         <h2 className="home-text">
-                            Custom cybersecurity training. Personalized learning.
+                            Cybersecurity Training for <i>You</i>. Personalized learning.
                             <br />
                             <span>Capture the Flag for you and your team.</span>
                         </h2>
@@ -35,10 +35,10 @@ class NavigationBar extends Component {
                             </Nav>
                         </Navbar.Collapse>
                         <div className="social-links">
-                            <a href="https://twitter.com/ctf4hire" target="_blank" rel="noreferrer"> <FaTwitter /></a>
-                            <a href="https://www.facebook.com/ctf4hire" target="_blank" rel="noreferrer"> <FaFacebookF /></a>
-                            <a href="https://www.instagram.com/ctf4hire/" target="_blank" rel="noreferrer"> <FaInstagram /></a>
-                            <a href="https://linkedin.com/company/ctf4hire/" target="_blank" rel="noreferrer"> <FaLinkedin /></a>
+                            <a href="https://twitter.com/JustHacking" target="_blank" rel="noreferrer"> <FaTwitter /></a>
+                            <a href="https://www.facebook.com/JustHacking" target="_blank" rel="noreferrer"> <FaFacebookF /></a>
+                            <a href="https://www.instagram.com/JustHacking/" target="_blank" rel="noreferrer"> <FaInstagram /></a>
+                            <a href="https://linkedin.com/company/JustHacking/" target="_blank" rel="noreferrer"> <FaLinkedin /></a>
                         </div>
                     </Container>
                 </Navbar>
@@ -95,7 +95,7 @@ const Styled = styled.div`
         height: 2px;
         bottom: -4px;
         left: 0;
-        background-color: #18d26e;
+        background-color: #df2229;
         visibility: hidden;
         width: 0px;
         transition: all 0.3s ease-in-out 0s;
@@ -126,7 +126,7 @@ const Styled = styled.div`
     }
 
     .social-links a:hover {
-        background: #18d26e;
+        background: #df2229;
     }
 
     @media (max-width: 992px) {
@@ -215,7 +215,7 @@ const Styled = styled.div`
 
         .home-text span {
             color: #fff;
-            border-bottom: 2px solid #18d26e;
+            border-bottom: 2px solid #df2229;
             padding-bottom: 6px;
         }
 

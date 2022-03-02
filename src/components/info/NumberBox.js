@@ -26,7 +26,7 @@ const Box = styled(Col)`
         font-size: 12px;
         background: rgba(255, 255, 255, 0.1);
         padding: 12px;
-        color: #18d26e;
+        color: #df2229;
         border-radius: 50px;
     }
 

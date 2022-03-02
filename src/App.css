@@ -23,11 +23,11 @@ body::before {
 }}
 
 a {
-    color: #18d26e;
+    color: #df2229;
 }
 
 a:hover {
-    color: #35e888;
+    color: #dc3545;
     text-decoration: none;
 }
 

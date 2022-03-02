@@ -5,7 +5,7 @@ import styled from "styled-components"
 const Styles = styled.div`
   font-family: monospace;
   font-size: 35px;
-  color: #18d26e;
+  color: #df2229;
 
   .box {
     padding: 50px 30px;

@@ -79,7 +79,7 @@ const Styled = styled.div`
     }
     
     .owl-dot.active {
-        background-color: #18d26e !important;
+        background-color: #df2229 !important;
     }
 `
 
