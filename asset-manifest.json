@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.7072aa68.chunk.css",
-    "main.js": "/static/js/main.34b1cf19.chunk.js",
-    "main.js.map": "/static/js/main.34b1cf19.chunk.js.map",
+    "main.css": "/static/css/main.81061f66.chunk.css",
+    "main.js": "/static/js/main.d5a02c59.chunk.js",
+    "main.js.map": "/static/js/main.d5a02c59.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71c5bbf3.js",
     "runtime-main.js.map": "/static/js/runtime-main.71c5bbf3.js.map",
     "static/css/2.591db2b6.chunk.css": "/static/css/2.591db2b6.chunk.css",
@@ -10,9 +10,9 @@
     "static/js/2.c97801dc.chunk.js.map": "/static/js/2.c97801dc.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.591db2b6.chunk.css.map": "/static/css/2.591db2b6.chunk.css.map",
-    "static/css/main.7072aa68.chunk.css.map": "/static/css/main.7072aa68.chunk.css.map",
+    "static/css/main.81061f66.chunk.css.map": "/static/css/main.81061f66.chunk.css.map",
     "static/js/2.c97801dc.chunk.js.LICENSE.txt": "/static/js/2.c97801dc.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/bg.c180389a.jpg",
+    "static/media/App.css": "/static/media/bg.fe90d6ef.jpg",
     "static/media/blacknote.e56c037a.png": "/static/media/blacknote.e56c037a.png",
     "static/media/bsidesbos.9e06bf63.png": "/static/media/bsidesbos.9e06bf63.png",
     "static/media/caleb.d49aec56.png": "/static/media/caleb.d49aec56.png",
@@ -22,7 +22,7 @@
     "static/media/hacktivitycon.60022e30.png": "/static/media/hacktivitycon.60022e30.png",
     "static/media/info_intro.566df13e.jpg": "/static/media/info_intro.566df13e.jpg",
     "static/media/john.d650779a.png": "/static/media/john.d650779a.png",
-    "static/media/logo.fc38bc0b.png": "/static/media/logo.fc38bc0b.png",
+    "static/media/logo.02e8c7cd.png": "/static/media/logo.02e8c7cd.png",
     "static/media/matt.b02bb332.jpeg": "/static/media/matt.b02bb332.jpeg",
     "static/media/nahamcon.583ab327.png": "/static/media/nahamcon.583ab327.png",
     "static/media/nightwolf.3441141b.jpg": "/static/media/nightwolf.3441141b.jpg",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.71c5bbf3.js",
     "static/css/2.591db2b6.chunk.css",
     "static/js/2.c97801dc.chunk.js",
-    "static/css/main.7072aa68.chunk.css",
-    "static/js/main.34b1cf19.chunk.js"
+    "static/css/main.81061f66.chunk.css",
+    "static/js/main.d5a02c59.chunk.js"
   ]
 }
