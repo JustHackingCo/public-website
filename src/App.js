@@ -30,7 +30,7 @@ function App() {
                     </Router>
                 </div>
                 <footer>
-                    &copy; CTF4Hire
+                    &copy; JustHacking
                 </footer>
             </Styles>
 

@@ -1,6 +1,6 @@
-# Public CTF4Hire website
+# Public JustHacking website
 
-This repo contains the react source code for the CTF4Hire website hosted by github pages on the `gh-pages` branch with the domain `ctf4hire.com`. 
+This repo contains the react source code for the JustHacking website hosted by github pages on the `gh-pages` branch with the domain `JustHacking.com`. 
 
 There are two important branches:
 
