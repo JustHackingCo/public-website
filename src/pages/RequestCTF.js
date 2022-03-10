@@ -19,8 +19,8 @@ export const RequestCTF = () => (
         <Row className="justify-content-md-center">
           <Col md={5}>
             <Styles>
-              The <strong>CTF4Hire</strong> team is currently working on a  
-              Capture the flag event and is unable to take more requests at this time. Check back after April, 2022 and we should have some more availability!
+              The <strong>JustHacking</strong> team is currently preparing 
+              for other <b><u>Capture the Flag</u></b> events and is unable to take more requests at this time. Check back soon and we should have some more availability!
             </Styles>
           </Col>
         </Row>

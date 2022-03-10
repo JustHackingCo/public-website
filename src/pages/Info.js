@@ -35,7 +35,7 @@ export const Info = () => (
                                 solve new problems, and grow your personnel!
                             </p>
                             <p>
-                                <b>CTF4Hire</b> offers custom Capture the Flag events for
+                                <b>JustHacking</b> offers custom Capture the Flag events for
                                 any company, conference, or event. Running some internal
                                 training for your team? We can provide the infrastructure,
                                 challenges, support and maintenance for an enterprise-wide
