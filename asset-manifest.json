@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.81061f66.chunk.css",
-    "main.js": "/static/js/main.8a24aefa.chunk.js",
-    "main.js.map": "/static/js/main.8a24aefa.chunk.js.map",
+    "main.js": "/static/js/main.5d59b22c.chunk.js",
+    "main.js.map": "/static/js/main.5d59b22c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71c5bbf3.js",
     "runtime-main.js.map": "/static/js/runtime-main.71c5bbf3.js.map",
     "static/css/2.591db2b6.chunk.css": "/static/css/2.591db2b6.chunk.css",
@@ -13,7 +13,7 @@
     "static/css/main.81061f66.chunk.css.map": "/static/css/main.81061f66.chunk.css.map",
     "static/js/2.c97801dc.chunk.js.LICENSE.txt": "/static/js/2.c97801dc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/bg.fe90d6ef.jpg",
-    "static/media/blacknote.e56c037a.png": "/static/media/blacknote.e56c037a.png",
+    "static/media/blacknote.9ffb8b3e.png": "/static/media/blacknote.9ffb8b3e.png",
     "static/media/bsidesbos.9e06bf63.png": "/static/media/bsidesbos.9e06bf63.png",
     "static/media/caleb.d49aec56.png": "/static/media/caleb.d49aec56.png",
     "static/media/congon4tor.38005465.png": "/static/media/congon4tor.38005465.png",
@@ -34,6 +34,6 @@
     "static/css/2.591db2b6.chunk.css",
     "static/js/2.c97801dc.chunk.js",
     "static/css/main.81061f66.chunk.css",
-    "static/js/main.8a24aefa.chunk.js"
+    "static/js/main.5d59b22c.chunk.js"
   ]
 }
