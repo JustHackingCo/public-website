@@ -156,14 +156,14 @@ export const Team = () => (
                                 <Image src={blacknote} alt="blacknote's pfp" fluid />
                                 </Col>
                                 <Col lg={8} className="pt-4 pt-lg-0">
-                                <h3 id="blacknote">Blacknote</h3>
+                                <h3 id="ravin">Ravin</h3>
                                 <p>
                                 Ravin, also known as Blacknote in the community, is a cybersecurity researcher and web security enthusiast. He loves playing CTFs, especially Attack & Defence, and enjoys sharing the knowledge he has picked up with others. Blacknote currently holds CEH, OSCP and OSWE certifications in his pocket.
                                 </p>
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Blacknote Develops</SectionTitle>
+                            <SectionTitle>Ravin Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
@@ -212,7 +212,7 @@ export const Team = () => (
                                 <Col lg={8} className="pt-4 pt-lg-0">
                                 <h3 id="fumenoid">Fumenoid</h3>
                                 <p>
-                                Harshit (aka. Fumenoid) is a Pentration tester and Cybersecurity Enthusiast. He is currently a student and is pursuing his bachelor's in Computer Science Engineering with Specialization in Cybersecurity and Forensics. As a Cyber Security Intern in BDO India, Fumenoid spends his days doing Network and Web Penetration testing. He is also a Community Moderator in Offensive Security Discord and an Administrator in John Hammond's Discord, where he helps the discord community members and moderates the servers. Fumenoid currently holds the following certifications: OSCP.
+                                Harshit (aka. Fumenoid) is a Pentration tester and Cybersecurity Enthusiast. Fumenoid spends his days doing Network and Web Penetration testing in his intern. He is also a Community Moderator in Offensive Security Discord and an Administrator in John Hammond's Discord, where he helps the discord community members and moderates the servers. Fumenoid currently holds the following certifications: OSCP.
                                 </p>
                                 </Col>
                             </Row>
