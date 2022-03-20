@@ -156,14 +156,14 @@ export const Team = () => (
                                 <Image src={blacknote} alt="blacknote's pfp" fluid />
                                 </Col>
                                 <Col lg={8} className="pt-4 pt-lg-0">
-                                <h3 id="blacknote">Blacknote</h3>
+                                <h3 id="ravin">Ravin</h3>
                                 <p>
                                 Ravin, also known as Blacknote in the community, is a cybersecurity researcher and web security enthusiast. He loves playing CTFs, especially Attack & Defence, and enjoys sharing the knowledge he has picked up with others. Blacknote currently holds CEH, OSCP and OSWE certifications in his pocket.
                                 </p>
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Blacknote Develops</SectionTitle>
+                            <SectionTitle>Ravin Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
