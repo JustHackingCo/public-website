@@ -40,7 +40,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>John Develops</SectionTitle>
+                            <SectionTitle>Challenges John Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
@@ -67,7 +67,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Caleb Develops</SectionTitle>
+                            <SectionTitle>Challenges Caleb Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiServerLine} color="#4233ff" link="#test" text="Infrastructure"></CategoryBox>
                             <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
@@ -89,7 +89,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Trevor Develops</SectionTitle>
+                            <SectionTitle>Challenges Trevor Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
                             <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
@@ -112,7 +112,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Ignacio Develops</SectionTitle>
+                            <SectionTitle>Challenges Ignacio Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
@@ -138,7 +138,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Matt Develops</SectionTitle>
+                            <SectionTitle>Challenges Matt Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
                             <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
@@ -163,7 +163,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Ravin Develops</SectionTitle>
+                            <SectionTitle>Challenges Ravin Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
@@ -190,7 +190,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>NightWolf Develops</SectionTitle>
+                            <SectionTitle>Challenges NightWolf Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
@@ -217,7 +217,7 @@ export const Team = () => (
                                 </Col>
                             </Row>
                             <JeopardyCategories>
-                            <SectionTitle>Fumenoid Develops</SectionTitle>
+                            <SectionTitle>Challenges Fumenoid Develops</SectionTitle>
                             <Row>
                             <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
                             <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
