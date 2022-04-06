@@ -35,10 +35,10 @@ class NavigationBar extends Component {
                             </Nav>
                         </Navbar.Collapse>
                         <div className="social-links">
-                            <a href="https://twitter.com/JustHacking" target="_blank" rel="noreferrer"> <FaTwitter /></a>
-                            <a href="https://www.facebook.com/JustHacking" target="_blank" rel="noreferrer"> <FaFacebookF /></a>
+                            <a href="https://twitter.com/JustHackingCo" target="_blank" rel="noreferrer"> <FaTwitter /></a>
+                            <a href="https://www.facebook.com/Just-Hacking-LLC-101152092573638" target="_blank" rel="noreferrer"> <FaFacebookF /></a>
                             <a href="https://www.instagram.com/JustHacking/" target="_blank" rel="noreferrer"> <FaInstagram /></a>
-                            <a href="https://linkedin.com/company/JustHacking/" target="_blank" rel="noreferrer"> <FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/company/justhacking/" target="_blank" rel="noreferrer"> <FaLinkedin /></a>
                         </div>
                     </Container>
                 </Navbar>
