@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Col } from 'react-bootstrap'
 import { IconContext } from 'react-icons'
-import { Link } from 'react-router-dom'
 
 const Box = styled(Col)`
     a {
@@ -41,14 +40,12 @@ export const CategoryBox = (props) => {
     const Icon = props.icon
     return (
     <Box lg={3} md={4} className="mt-4">
-        <Link to={props.link}>
             <div className="icon-box">
                 <IconContext.Provider value={{ color:props.color, size: "32px" }}>
                     <i><Icon height="24px" width="24px"/></i>
                 </IconContext.Provider>
                 <h3>{props.text}</h3>
             </div>
-        </Link>
     </Box>
     )
 }

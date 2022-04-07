@@ -63,18 +63,18 @@ export const Info = () => (
                 <JeopardyCategories>
                     <SectionTitle>Jeopardy categories</SectionTitle>
                     <Row>
-                        <CategoryBox icon={RiLock2Line} color="#ffbb2c" link="#test" text="Cryptography"></CategoryBox>
-                        <CategoryBox icon={RiGlobalLine} color="#5578ff" link="#test" text="Web Security"></CategoryBox>
-                        <CategoryBox icon={RiBugLine} color="#e80368" link="#test" text="Binary Exploitation"></CategoryBox>
-                        <CategoryBox icon={RiEyeOffLine} color="#e361ff" link="#test" text="Steganography"></CategoryBox>
-                        <CategoryBox icon={RiArchiveLine} color="#47aeff" link="#test" text="Miscellaneous"></CategoryBox>
-                        <CategoryBox icon={RiFireLine} color="#ffa76e" link="#test" text="Fundamental"></CategoryBox>
-                        <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" link="#test" text="Open Source Intelligence"></CategoryBox>
-                        <CategoryBox icon={RiSmartphoneLine} color="#4233ff" link="#test" text="Mobile Applications"></CategoryBox>
-                        <CategoryBox icon={RiArrowGoBackFill} color="#29cc61" link="#test" text="Reverse Engineering"></CategoryBox>
-                        <CategoryBox icon={RiHardDriveLine} color="#b20969" link="#test" text="Host Forensics"></CategoryBox>
-                        <CategoryBox icon={FaNetworkWired} color="#ff5828" link="#test" text="Networking"></CategoryBox>
-                        <CategoryBox icon={RiTeamLine} color="#dc3545" link="#test" text="Red Team Operations"></CategoryBox>
+                        <CategoryBox icon={RiLock2Line} color="#ffbb2c" text="Cryptography"></CategoryBox>
+                        <CategoryBox icon={RiGlobalLine} color="#5578ff" text="Web Security"></CategoryBox>
+                        <CategoryBox icon={RiBugLine} color="#e80368" text="Binary Exploitation"></CategoryBox>
+                        <CategoryBox icon={RiEyeOffLine} color="#e361ff" text="Steganography"></CategoryBox>
+                        <CategoryBox icon={RiArchiveLine} color="#47aeff" text="Miscellaneous"></CategoryBox>
+                        <CategoryBox icon={RiFireLine} color="#ffa76e" text="Fundamental"></CategoryBox>
+                        <CategoryBox icon={RiOpenSourceLine} color="#11dbcf" text="Open Source Intelligence"></CategoryBox>
+                        <CategoryBox icon={RiSmartphoneLine} color="#4233ff" text="Mobile Applications"></CategoryBox>
+                        <CategoryBox icon={RiArrowGoBackFill} color="#29cc61" text="Reverse Engineering"></CategoryBox>
+                        <CategoryBox icon={RiHardDriveLine} color="#b20969" text="Host Forensics"></CategoryBox>
+                        <CategoryBox icon={FaNetworkWired} color="#ff5828" text="Networking"></CategoryBox>
+                        <CategoryBox icon={RiTeamLine} color="#dc3545" text="Red Team Operations"></CategoryBox>
                     </Row>
                 </JeopardyCategories>
             </Section>
